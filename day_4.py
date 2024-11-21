@@ -1,8 +1,10 @@
-x,y,z= map(int, input("Enter two numbers separated by a space: ").split())
+n=int(input())
+for i in range(n):
+    x,y,z= map(int, input("Enter two numbers separated by a space: ").split())
 
-T=x*y
+    T=x*y
 
-if z > ((T) * 50) / 100:
-    print("yes")
-else:
-    print("no")
+    if z > ((T) * 50) / 100:
+        print("yes")
+    else:
+        print("no")
